@@ -5,8 +5,8 @@ import math
 
 # klasa do szukania pierwszej liczby Michała
 class Numbers:
-    def __init__(self, x):
-        self.givenArray = x
+    def __init__(self, array):
+        self.givenArray = array
         self.start = 0
         self.middle = len(self.givenArray)//2
         self.end = len(self.givenArray) - 1
